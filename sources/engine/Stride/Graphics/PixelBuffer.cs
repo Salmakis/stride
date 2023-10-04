@@ -203,7 +203,7 @@ namespace Stride.Graphics
             => Unsafe.ReadUnaligned<T>((byte*)DataPointer + RowStride * y + x * PixelSize);
 
         /// <summary>
-        /// Gets the pixel value at a specified position.
+        /// Sets the pixel value at a specified position.
         /// </summary>
         /// <typeparam name="T">Type of the pixel data</typeparam>
         /// <param name="x">The x-coordinate.</param>
